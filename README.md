@@ -15,9 +15,7 @@ Setup Instructions
 
 1. Clone the Repository
 
-git clone <your-repository-link>
-
-cd <project-folder>
+git clone <https://github.com/Hardik12244/KisanSetu>
 
 2. Install Dependencies
 
