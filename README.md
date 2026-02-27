@@ -43,23 +43,9 @@ Tech Stack
 This project is built using a "Clean Web" approach to ensure maximum speed and compatibility:
 
 HTML5: Semantic structure for accessibility
-
 CSS3: Custom Flexbox/Grid layouts 
-
 JavaScript (Vanilla): Dynamic filtering logic and API handling
-
 JSON: Localized database for schemes and crop data
-
-Project Structure
-Plaintext
-├── index.html          # Main landing page & input form
-├── assets/
-│   ├── css/            # Stylesheets (mobile-responsive)
-│   ├── js/             # Logic for scheme filtering & advice
-│   └── img/            # Visual icons for ease of navigation
-├── data/
-│   └── schemes.json    # Database of regional govt schemes
-└── README.md           # Project documentation
 
 How It Works (The Logic)
 The application follows a simple three-step logic flow:
