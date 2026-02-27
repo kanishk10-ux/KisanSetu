@@ -4,6 +4,26 @@ Empowering farmers with data-driven insights, localized schemes, and land-specif
 📖 Project Overview
 KisanSetu is a lightweight, mobile-first web platform designed to bridge the information gap for rural farmers. By entering their Region, Land Size, and Soil Type, farmers receive personalized recommendations on:
 
+🚀 Setup Instructions
+
+1. Clone the Repository
+git clone <your-repository-link>
+cd <project-folder>
+
+2. Install Dependencies
+Run: npm install
+
+4. Start Backend Server
+Run: node index.js
+
+Server will start at:
+http://localhost:3000
+
+4. Run Frontend
+Open: index.html
+in your browser.
+
+
 Government Schemes: Direct links to subsidies and financial aid they are eligible for.
 
 Crop Optimization: What to plant based on their specific land acreage.
