@@ -4,6 +4,7 @@
 <head>
     <title>KisanSetu</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./image/download.jpeg">
 </head>
 
 <body>
@@ -62,24 +63,12 @@
         </div>
     </section>
 
-   <section class="parallax stage1"></section>
-<section class="parallax stage2"></section>
-<section class="parallax stage3"></section>
-<section class="parallax stage4"></section>
-<section class="parallax stage5"></section>
-<section class="parallax stage6"></section>
-<section class="parallax stage7"></section>
-<section class="parallax stage8"></section>
-<section class="parallax stage9"></section>
-<section class="parallax stage10"></section>
-<section class="parallax stage11"></section>
-<section class="parallax stage12"></section>
-  
+
     <section id="form-section" class="form-section">
         <h2>Find Schemes For YourSelf</h2>
 
         <label>State:</label>
-        <select id="state">
+        <select class="input-box" id="state">
             <option value="">Select State</option>
             <option value="Punjab">Punjab</option>
             <option value="Haryana">Haryana</option>
@@ -97,18 +86,42 @@
             <option value="Odisha">Odisha</option>
         </select>
 
+        <label>City:</label>
+        <select class="input-box" id="city">
+            <option value="">Select City</option>
+        </select>
+
         <label>Land Size (in hectares):</label>
-        <input type="number" id="landSize" placeholder="Enter land size">
+        <input type="number" id="landSize" class="input-box" placeholder="Enter land size">
 
         <button class="advice-button" onclick="getAdvice()">Get Advice</button>
 
         <div id="result" class="result-box"></div>
+
+        <section id="weather">
+            <h2>Live Weather</h2>
+            <div id="weatherBox"></div>
+        </section>
+
         <p><i>This recommendation is based on landholding and state support policies.</i></p>
     </section>
 
-<footer>
-    <p>© 2026 KisanSetu — Smart Farming Advisory</p>
-</footer>
+    <section class="parallax stage1"></section>
+    <section class="parallax stage2"></section>
+    <section class="parallax stage3"></section>
+    <section class="parallax stage4"></section>
+    <section class="parallax stage5"></section>
+    <section class="parallax stage6"></section>
+    <section class="parallax stage7"></section>
+    <section class="parallax stage8"></section>
+    <section class="parallax stage9"></section>
+    <section class="parallax stage10"></section>
+    <section class="parallax stage11"></section>
+    <section class="parallax stage12"></section>
+
+    <footer>
+        <p>© 2026 KisanSetu — Smart Farming Advisory</p>
+    </footer>
 
 
     <script src="script.js"></script>

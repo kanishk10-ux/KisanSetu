@@ -8,11 +8,14 @@ body {
     font-family: 'Outfit', sans-serif;
 }
 .navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 10%;
-    margin-right: 20%;
     font-size: 24px;
 }
 .navbar-image{
@@ -22,6 +25,7 @@ body {
 .navbar-right{
     display: flex;
     gap: 40px;
+    padding-right: 20px;
 }
 .navbar a {
     text-decoration: none;
@@ -87,7 +91,14 @@ header p {
     color: #555;
     line-height: 1.6;
 }
-
+.weather-card {
+    background: #e3f2fd;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 20px auto;
+    max-width: 300px;
+    text-align: center;
+}
 .form-section {
     text-align: center;
     padding: 30px;
@@ -98,6 +109,15 @@ input {
     margin: 10px auto;
     padding: 8px;
     width: 200px;
+}
+.input-box {
+    font-size: 16px;
+    font-weight: 500;  
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease;
 }
 
 button {
@@ -146,6 +166,18 @@ select {
     font-weight: 800;
     background-color: red;
     color: black;
+}
+.go-button {
+    background: linear-gradient(135deg, #28a745, #218838);
+    color: white;
+    border: none;
+    padding: 10px 22px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
 
 footer {
